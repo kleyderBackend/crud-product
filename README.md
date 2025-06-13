@@ -41,3 +41,39 @@ MONGODB_URI=mongodb://localhost:27017/tu_base_de_datos
 PORT=3000
 Inicia el servidor:
 npm run dev
+
+
+---
+## 🔍 Endpoints principales
+Método	Ruta	Descripción
+GET	/products	Obtener todos los productos
+GET	/products/:id	Obtener producto por ID
+POST	/products	Crear un nuevo producto
+PUT	/products/:id	Actualizar producto
+DELETE	/products/:id	Eliminar producto
+
+---
+
+## 🧪 Pruebas
+Puedes utilizar Postman, Insomnia o cualquier cliente HTTP para probar los endpoints. Asegúrate de que tu base de datos esté corriendo.
+
+---
+
+## 📁 Estructura del proyecto
+crud-product/
+├── models/
+│   └── Product.js
+├── routes/
+│   └── product.routes.js
+├── controllers/
+│   └── product.controller.js
+├── .env
+├── app.js
+├── package.json
+
+---
+
+## ✍️ Autor
+Kleyder Dávila
+📍 Backend Developer en formación
+🔗 GitHub - @kleyderBackend
